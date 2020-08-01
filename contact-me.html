@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Details</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <p>Michelle Amaka Utomi</p>
+  <p>08089694977</p>
+  <p>michelleutomi@yahoo.com</p>
+  <hr>
+  <form action="mailto:info@michellutomi@yahoo.com" method="post" enctype="text/plain">
+    <!--the action attribute is the default attribute that wiil take you to the home page but you use "mailto" with info@ with the mail you wish to send the details/info to;  enctype: helps to remove any %  sigs or numbers when the email is sent to you-->
+    <label for="">Your Name</label>
+    <input type="text" name="yourname" value="">
+    <!--<input type="color" name="" value="">--><br />
+    <label for="">Email</label>
+    <input type="email" name="yourEmail" value=""><br />
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <!--row:tells you how tall the textarea should be,  cols:tells you how wide the textarea should be-->
+    <input type="file" name="" value=""><br>
+    <input type="date" name="" value=""><br>
+    <!-- s<input type="radio" name="" value=""><br>
+  <input type="range" name="" value=""><br>-->
+    <input type="reset" name="" value=""><br>
+    <!--
+      <input type="email" name="" value="">
+      <input type="time" name="" value="">
+      <input type="tel" name="" value="">
+      <input type="search" name="" value=""> play with input atribute on  forms
+    -->
+    <label for="">Do you want to sign up for the email list</label>
+    <input type="checkbox" name="" value=""><br />
+
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>
